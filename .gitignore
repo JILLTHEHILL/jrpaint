@@ -1,0 +1,28 @@
+# Vivado projects and generated outputs
+/build/
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.jou
+*.log
+*.str
+*.dcp
+*.bit
+*.ltx
+
+# Local simulation and Python outputs
+*.vvp
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editor and operating-system files
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
