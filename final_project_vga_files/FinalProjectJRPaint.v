@@ -1,6 +1,6 @@
 `timescale 1 ns / 100 ps
 
-// Build this top with the sources in rachel_processor/proc only.
+// Build this top with the sources in processor/proc only.
 // Jill's processor tree uses the same module names and will collide in Vivado.
 
 module FinalProjectJRPaint(

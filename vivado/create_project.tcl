@@ -18,16 +18,16 @@ set sources {
     final_project_vga_files/colors.mem
     final_project_vga_files/cursor.mem
     final_project_vga_files/color_audio.mem
-    rachel_processor/proc/RAM.v
-    rachel_processor/proc/ROM.v
-    rachel_processor/proc/alu.v
-    rachel_processor/proc/dffe_ref.v
-    rachel_processor/proc/multdiv.v
-    rachel_processor/proc/processor.v
-    rachel_processor/proc/regfile.v
-    rachel_processor/proc/register.v
-    rachel_processor/proc/tFlipFlipAndMux.v
-    lab9_kit/PWMSerializer.v
+    processor/proc/RAM.v
+    processor/proc/ROM.v
+    processor/proc/alu.v
+    processor/proc/dffe_ref.v
+    processor/proc/multdiv.v
+    processor/proc/processor.v
+    processor/proc/regfile.v
+    processor/proc/register.v
+    processor/proc/tFlipFlipAndMux.v
+    pwm/PWMSerializer.v
 }
 set source_files {}
 foreach source $sources {

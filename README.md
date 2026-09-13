@@ -108,10 +108,10 @@ final_project_vga_files/
   color_audio.mem                 Packed audio samples
   color_audio_table.vh            Audio offsets and lengths
   build_color_audio_mem.py        WAV-to-ROM converter
-rachel_processor/
+processor/
   proc/                           Processor, register file, RAM, ROM, ALU
   assembler-python-version/       Custom ISA assembler
-lab9_kit/PWMSerializer.v           Audio PWM serializer
+pwm/PWMSerializer.v                Audio PWM serializer
 sound_effects/                    Ten recorded source WAV files
 vivado/
   create_project.tcl              Recreate the Vivado project
@@ -168,7 +168,7 @@ The checked-in `.mem` is ready to use. After editing the assembly, regenerate it
 with the included custom assembler, **not a standard MIPS assembler**:
 
 ```sh
-python3 rachel_processor/assembler-python-version/assemble.py final_project_vga_files/finalprojectJRPaint_assembly.s -o final_project_vga_files/finalprojectJRPaint_assembly.mem
+python3 processor/assembler-python-version/assemble.py final_project_vga_files/finalprojectJRPaint_assembly.s -o final_project_vga_files/finalprojectJRPaint_assembly.mem
 ```
 
 The output contains 4,096 lines of 32-bit binary instructions, including padding.
