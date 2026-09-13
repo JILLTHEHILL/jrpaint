@@ -2,7 +2,7 @@
 
 **A mouse-controlled FPGA paint application powered by a custom processor and assembly.**
 
-Created by **Jill Wang and Rachel Yu** for Duke ECE 350. JR Paint runs on a
+Created by **Jill Wang and Rachel Yu**. JR Paint runs on a
 Nexys A7-100T, using a VGA monitor as the canvas and the board's switches to
 select colors, brush sizes, and fill mode.
 
